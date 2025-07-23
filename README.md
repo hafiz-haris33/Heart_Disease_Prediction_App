@@ -76,38 +76,43 @@ These features had the highest contribution to the model's prediction decisions.
 
 ## 🚀 How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/heart-disease-prediction.git
-   
-2. Upload the dataset heart.csv to the working directory
+Clone this repository:
 
-3. Run the notebook in Google Colab or Jupyter
- 
-4. To use the saved model:
+```bash
+git clone https://github.com/your-username/heart-disease-prediction.git
+```
 
+Upload the dataset `heart.csv` to the working directory.
+
+Run the notebook in **Google Colab** or **Jupyter Notebook**.
+
+To use the saved model:
+
+```python
 import joblib
 model = joblib.load('final_model.pkl')
+```
 
+---
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 
-Add Streamlit frontend for interactive predictions
+- Add **Streamlit** frontend for interactive predictions.
+- Integrate **SHAP** or **LIME** for model explainability.
+- Incorporate more real-world features (e.g., lifestyle, genetic history).
 
-Integrate SHAP or LIME for model explainability
+---
 
-Incorporate more real-world features (e.g., lifestyle, genetic history)
+## 📜 License
 
+This project is for **educational purposes only** and not intended for medical use without professional verification.
 
-📜 License
-This project is for educational purposes only and not intended for medical use without professional verification.
+---
 
+## 🙏 Acknowledgements
 
-🙏 Acknowledgements
 Thanks to:
 
-Kaggle for the dataset
-
-The Scikit-Learn team for the robust ML tools
-
-Google Colab for providing a free computation platform
+- [Kaggle](https://www.kaggle.com/) for the dataset.
+- The **Scikit-Learn** team for robust machine learning tools.
+- **Google Colab** for providing a free computation platform.
